@@ -1,0 +1,64 @@
+#######################################
+# Syntax Coloring Map for CL57RStepper
+#######################################
+
+#######################################
+# Class Name (KEYWORD1)
+#######################################
+CL57RStepper    KEYWORD1    CL57RStepperConstructor
+
+#######################################
+# Initialization & Core (KEYWORD2)
+#######################################
+begin   KEYWORD2
+isInitialized   KEYWORD2
+guardInit   KEYWORD2
+
+#######################################
+# Motor Control (KEYWORD2)
+#######################################
+enableMotor KEYWORD2
+disableMotor    KEYWORD2
+clearAlarm  KEYWORD2
+resetAbsolutePosition   KEYWORD2
+restoreFactorySettings  KEYWORD2
+
+#######################################
+# Motion (KEYWORD2)
+#######################################
+moveToAbsolutePosition  KEYWORD2
+moveToRelativePosition  KEYWORD2
+startSpeed  KEYWORD2
+stopSmooth  KEYWORD2
+stopEmergency   KEYWORD2
+
+#######################################
+# Monitoring & Status (KEYWORD2)
+#######################################
+getActualPosition   KEYWORD2
+getStatusWord   KEYWORD2
+getErrorCode    KEYWORD2
+getWorkingMode  KEYWORD2
+isConnected KEYWORD2
+isMovementComplete  KEYWORD2
+
+#######################################
+# Modbus Access (KEYWORD2)
+#######################################
+readRegister    KEYWORD2
+writeRegister   KEYWORD2
+writeDoubleRegister KEYWORD2
+writeRegisterRaw    KEYWORD2
+readRegisterRaw KEYWORD2
+
+#######################################
+# Diagnostics & Utilities (KEYWORD2)
+#######################################
+printDiagnostics    KEYWORD2
+printMotorSettings  KEYWORD2
+printMotorStatus    KEYWORD2
+printMotionStatus   KEYWORD2
+printIOStatus   KEYWORD2
+decodeErrorCode KEYWORD2
+getDIFunctionName   KEYWORD2
+getDOFunctionName   KEYWORD2
